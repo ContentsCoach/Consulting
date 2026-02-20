@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컨설팅 서비스 - 형이야마케터</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <style>
+        body { font-family: 'Pretendard', sans-serif; line-height: 1.8; padding: 40px 20px; max-width: 500px; margin: 0 auto; color: #111; background-color: #fff; word-break: keep-all; }
+        h1 { font-size: 28px; font-weight: 900; line-height: 1.35; margin-bottom: 15px; color: #000; letter-spacing: -1px; text-align: center; }
+        .subtitle { font-size: 18px; font-weight: 700; color: #666; text-align: center; margin-bottom: 50px; }
+        .highlight { font-weight: 800; background: linear-gradient(to top, #fff382 40%, transparent 40%); padding: 0 2px; }
+        
+        /* 서비스 카드 */
+        .service-card { background: #f8faff; border-radius: 25px; padding: 35px 25px; margin-bottom: 30px; border: 2px solid #eef2f8; }
+        .service-tag { display: inline-block; background: #27ae60; color: #fff; font-size: 13px; font-weight: 800; padding: 6px 14px; border-radius: 8px; margin-bottom: 15px; letter-spacing: 0.5px; }
+        .service-title { font-size: 22px; font-weight: 900; margin-bottom: 10px; color: #000; }
+        .service-price { font-size: 32px; font-weight: 900; color: #27ae60; margin-bottom: 20px; }
+        .service-desc { font-size: 15px; color: #555; margin-bottom: 25px; line-height: 1.7; }
+        .service-list { list-style: none; padding: 0; margin: 0; }
+        .service-list li { font-size: 15.5px; color: #333; margin-bottom: 12px; padding-left: 20px; position: relative; }
+        .service-list li:before { content: "·"; position: absolute; left: 0; font-weight: 900; color: #27ae60; font-size: 18px; }
+        .service-note { font-size: 14px; color: #27ae60; font-weight: 700; margin-top: 25px; padding: 15px; background: #f2faf6; border-radius: 12px; display: flex; align-items: flex-start; }
+        .service-note:before { content: "▶"; margin-right: 8px; flex-shrink: 0; }
+
+        /* 하단 안내 */
+        .info-box { background: #fff; border: 2px solid #27ae60; border-radius: 20px; padding: 30px 25px; margin-top: 50px; text-align: center; }
+        .info-title { font-size: 18px; font-weight: 900; color: #27ae60; margin-bottom: 15px; }
+        .info-text { font-size: 15px; color: #333; line-height: 1.8; margin-bottom: 0; }
+    </style>
+</head>
+<body>
+    <h1>컨설팅 서비스</h1>
+
+    <!-- 1회 진단 -->
+    <div class="service-card">
+        <span class="service-tag">1회 진단</span>
+        <h2 class="service-title">플레이스 · 블로그 진단</h2>
+        <div class="service-price">55만 원</div>
+        <p class="service-desc">문의가 없는 이유는, <span class="highlight">어디를 고쳐야 할지 모르기 때문</span>입니다.</p>
+        
+        <ul class="service-list">
+            <li>플레이스 진단 (사진 순서, 소개글, 리뷰, 키워드)</li>
+            <li>블로그 진단 (포스팅 10개 분석, 키워드, 체류시간)</li>
+            <li>진단 보고서 PDF (A4 7~10p)</li>
+            <li>1:1 전화 상담 1시간 (보고서 설명 + 질의응답)</li>
+            <li>실행 체크리스트 제공</li>
+        </ul>
+
+        <div class="service-note">신청 후 3일 내 보고서 전달</div>
+    </div>
+
+    <!-- 하단 안내 -->
+    <div class="info-box">
+        <div class="info-title">실행은 사장님이 하셔야 합니다.</div>
+        <p class="info-text">컨설팅은 방향을 제시하고 피드백을 드리는 서비스입니다.<br>실제 실행과 운영은 사장님께서 직접 하셔야 하며,<br>특정 순위나 매출 상승을 보장하지 않습니다.</p>
+    </div>
+
+</body>
+</html>
